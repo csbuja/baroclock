@@ -1,0 +1,91 @@
+@font-face {
+	font-family: 'Bebas';
+	src: url('../fonts/Bebas/BEBAS.ttf');
+}
+
+/* SET MARGIN AND PADDING TO ZERO TO ENSURE IMAGE FITS TO BROWSER SIZE*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* SET BACKGROUND IMAGE AND SET ATTRIBUTES */
+.hero {
+	background: url('../img/image.jpg');
+	background-color: #333;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+}
+.titleSpan{
+	background-color: #333;
+	border-radius: 5px;
+}
+#title {
+	font-family: 'Bebas', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 5em;
+	text-align: center;
+	padding-top: 17%;
+	vertical-align: middle;
+}
+.submitButton {
+	color: white;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border: 1px solid transparent;
+	display: inline-block;
+	padding: 0px 50px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	line-height: 40px;
+	background-color: rgb(46, 204, 113);
+}
+
+#subtitle {
+	font-family: 'Bebas', Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: 1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.mission {
+	font-family: 'Bebas', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 3em;
+	font-weight: bold;
+	height: 50%;
+	padding: 2% 10% 2% 10%;
+}
+
+.description {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	color: #333;
+	font-size: .5em;
+}
+
+#photo {
+	margin-right: 2%;
+	width: 30%;
+	float: left;
+}
+
+#text {
+	width: 50%;
+	display: inline-block;
+}
+
+.footer {
+	width: 100%;
+	height: 15px;
+	background: blue;
+	position: absolute;
+	bottom: 0;
+}
